@@ -1,26 +1,21 @@
-# JavaScript Workshop #5 – Array Mastery  
+JavaScript Workshop #5 – Array & Object Mastery
+Practice exercises focused on modern JavaScript array methods and data manipulation.
+Task 1 – Nested Arrays
+Given a nested array, dynamically calculate:
 
-სავარჯიშოები JavaScript-ში მასივებზე და ობიექტებზე (map, filter, reduce, every, some, find, flat).
+The sum of each sub-array
+The total sum of all numbers in the entire structure
 
-### დავალება 1 – Nested Arrays  
-მოცემულია სამი შიდა მასივი. დინამიურად (ციკლის ან reduce-ის გამოყენებით) გამოვთვალოთ:  
-- თითოეული შიდა მასივის ჯამი  
-- ყველა რიცხვის საერთო ჯამი  
+(No hard-coded indexing like arr[0][1] allowed — use loops or array methods.)
+Task 2 – Students Data
+Work with an array of student objects containing name, grades, and active status. Complete the following:
 
-### დავალება 2 – Students მონაცემები  
-მოცემულია სტუდენტების მასივი ობიექტებით (სახელი, ქულები, აქტიურობა). შესასრულებელი ამოცანები:  
-1. სახელების მასივი დიდი ასოებით  
-2. მხოლოდ აქტიური სტუდენტები  
-3. თითოეული სტუდენტის სტატუსის გამოტანა  
-4. ყველა სტუდენტს აქვს თუ არა საშუალო > 50  
-5. ერთ სტუდენტს მაინც აქვს თუ არა საშუალო > 90  
-6. სტუდენტის მოძებნა სახელით  
+Create an array of student names in UPPERCASE
+Return only active students
+Log each student’s status (e.g., “Ana is an active student”)
+Check if every student has an average grade > 50 (return boolean)
+Check if at least one student has an average grade > 90 (return boolean)
+Find the student named “Maya”
 
-### გამოყენებული მეთოდები  
-`map`, `filter`, `reduce`, `flat`, `every`, `some`, `find`, `forEach`
-
-```bash
-git clone https://github.com/yourusername/js-workshop-5.git
-cd js-workshop-5
-node index.js
-```
+Methods Used
+map, filter, reduce, flat, every, some, find, forEach
